@@ -1,6 +1,5 @@
 pipeline {    
-agent any    
-tools {        maven "MAVEN"        jdk "JDK"    }    
+agent any
 stages {        
 	stage('Initialize'){            
 		steps{echo "PATH = ${M2_HOME}/bin:${PATH}"  
